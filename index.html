@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page for fitness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utils.css">
+
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="container max-auto">
+    <header>
+      <nav class="flex justify-between">
+        <div class="logo flex items-center font-bold text-blue">My Fitness</div>
+        <ul class="navbar flex items-center">
+          <li><a href="#Home">Home </a></li>
+          <li><a href="#About">About </a></li>
+          <li><a href="#Services">Services </a></li>
+          <li><a href="#Contact Us">Contact Us </a></li>
+  
+          <li><button class="btn" id="DivContent" onclick="form()">Join Us</button></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+    <main class="min-h-screen ">
+      <section class="section1">
+        <div class="flex ">
+          <div class="topleft flex flex-col px-2">
+            <div class="text-center">
+              <img class="dumbbellimg" src="dumbbell.png">
+            </div>
+            <h1 class="my-1 text-center">The Best Fitness Gym in the Town in Here.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquid ex facilis exercitationem ut.
+              Itaque autem adipisci sint aliquam officiis. Necessitatibus, maxime facilis hic voluptatem animi fuga
+              atque numquam magni.</p>
+          </div>
+          <div class="topright justify-center">
+            <img class="gymimg" src="vecteezy_body-building-logo_16389914_894.png">
+
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="section2">
+        <h1 class="text-center my2">Pricing</h1>
+        <p class="my2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod et corporis fugit dicta eveniet ab
+          cupiditate,
+          eaque nesciunt. Quis modi deserunt soluta quidem nesciunt blanditiis sint dolorem eius repellendus similique.
+        </p>
+        <div class="boxes flex">
+          <div class="box">
+            <h2> Free</h2>
+            <ul>
+              <li>
+                ₹0
+              </li>
+              <li>₹0</li>
+              <li>0 Users Included</li>
+              <li>2 GB of Storage</li>
+              <li>Email support</li>
+              <li>  Multi valued</li>
+              <li><button class="btn">Sign Up Now</button></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h2> Free</h2>
+            <ul>
+              <li>
+                ₹0
+              </li>
+              <li>₹0</li>
+              <li>0 Users Included</li>
+              <li>2 GB of Storage</li>
+              <li>Email support</li>
+              <li> Multi valued</li>
+              <li><button class="btn">Sign Up Now</button></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h2> Free</h2>
+            <ul>
+              <li>
+                ₹0
+              </li>
+              <li>₹0</li>
+              <li>0 Users Included</li>
+              <li>2 GB of Storage</li>
+              <li>Email support</li>
+              <li>  Multi valued</li>
+              <li><button class="btn">Sign Up Now</button></li>
+            </ul>
+          </div>
+      </section>
+      <hr>
+      <section class="section3">
+        <h1>Compare Plan</h1>
+        <caption> Report</caption>
+        <table border="1">
+  <tr>
+    <th>Services Name at Gym</th>
+    <th>Activities and Exercises for Everyone</th>
+    <th>Food and diet meal for best health</th>
+  </tr>
+  <tr>
+    <td>Regular and healthy for you</td>
+    <td>Warm up your body</td>
+    <td>Multi-Nutritions</td>
+  </tr>
+  <tr>
+    <td>Combo healthy with consultancy</td>
+    <td>Cycling and weight lifting</td>
+    <td>Protien and carbohydrate</td>
+  </tr>
+</table>
+      </section>
+      <hr>
+    </main>
+    <footer> 
+copyright &copy; MyFitness.com | All rights reserved!
+    </footer>
+
+  </div>
+  <script src="jquery.js"></script> 
+  <script> 
+  $(function(){
+    $("#DivContent").load("form.html"); 
+  });
+  </script> 
+</body>
+
+</html>
