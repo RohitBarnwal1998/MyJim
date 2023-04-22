@@ -1,2 +1,2 @@
-# MyJim
+# MyGym 
 Landing Page
